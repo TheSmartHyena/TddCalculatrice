@@ -9,4 +9,10 @@ class CalculatorTest {
     void add() {
         assertEquals(4, Calculator.add(2, 2));
     }
+
+    @Test
+    @DisplayName("Multiply two numbers")
+    void multiply() {
+        assertEquals(16, Calculator.multiply(4, 4));
+    }
 }
